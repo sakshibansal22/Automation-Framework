@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GetMyParkingTest" verbose="1">
+
+	<test name="SignIn">
+		<parameter name="UserName" value="abc@gmail.com" />
+		<parameter name="Password" value="test1234" />
+		<classes>
+			<class name="com.GetMYParking.SignInTest" />
+		</classes>
+	</test>
+	<test name="SignUp">
+		<parameter name="UserName" value="abc@gmail.com" />
+		<parameter name="Password" value="test1234" />
+		<classes>
+
+			<class name="com.GetMYParking.SignUpTest" />
+		</classes>
+	</test>
+</suite>
