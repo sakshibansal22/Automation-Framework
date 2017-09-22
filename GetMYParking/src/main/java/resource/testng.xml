@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GetMyParkingTest" verbose="1">    
+
+<test name="GetMyParkingTest">
+<classes>
+<parameter name="UserName" value="abc@gmail.com"/>
+<parameter name="Password" value="test1234"/> 
+
+<class name ="com.GetMYParking.SignInTest.testSignIN"/>
+</classes>
+<classes>
+<parameter name="UserName" value="abc@gmail.com"/>
+<parameter name="Password" value="test1234"/> 
+<class name ="com.GetMYParking.SignUpTest.testSignUp"/>
+</classes>
+</test>   
+</suite>
